@@ -130,3 +130,4 @@ Then you need to configure:
 -  A Pycahrm window is launched when the project is run, with the effect of our plugin.
 
 <img src="doc/img/plugin_example.jpg" width="50%"/>
+=======
