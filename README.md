@@ -1,5 +1,6 @@
 # AI-Coder
 
+<<<<<<< 379aeddbc1b31cb33578e8915089dfcf46cffba2
 [![Join the chat at https://gitter.im/AI-Coder/community](https://badges.gitter.im/AI-Coder/community.svg)](https://gitter.im/AI-Coder/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 AI-Coder is a PyCharm plugin that implements code words, code sentences, and code block recommendations through deep learning, and uses C/S to obtain recommendation results.
