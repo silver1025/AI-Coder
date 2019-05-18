@@ -2,6 +2,8 @@
 
 ## Directory Structure
 
+[![Join the chat at https://gitter.im/AI-Coder/community](https://badges.gitter.im/AI-Coder/community.svg)](https://gitter.im/AI-Coder/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 project 
 
 ├─model 
