@@ -1,0 +1,36 @@
+<idea-plugin>
+  <id>com.test.pku.banana.plugin.autocomplete</id>
+  <name>autocomplete for Pycharm</name>
+  <version>1.0</version>
+  <vendor email="1801210847@pku.edu.cn" url="http://pku.edu.cn">PKUBanana</vendor>
+
+  <description><![CDATA[
+      Able to run and debug ef common tests easily.<br>
+      <em>Able to run and debug ef common tests easily.</em>
+    ]]></description>
+
+  <change-notes><![CDATA[
+      Able to run and debug ef common tests easily.<br>
+      <em>Able to run and debug ef common tests easily.</em>
+    ]]>
+  </change-notes>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="173.0"/>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <!-- uncomment to enable plugin in all products
+  <depends>com.intellij.modules.lang</depends>
+  -->
+  <!--加上下面这句话表示此插件适用于Pycharm-->
+  <depends>com.intellij.modules.python</depends>
+
+  <!--重点配置，implementationClass代表对应java类的路径-->
+  <extensions defaultExtensionNs="com.intellij">
+    <completion.contributor order="first" language="any" implementationClass="main.java.MyCompletionContributor"/>
+  </extensions>
+  <actions>
+  </actions>
+
+</idea-plugin>
