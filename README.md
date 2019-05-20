@@ -1,8 +1,12 @@
+# AI-Coder
+
+[![Join the chat at https://gitter.im/AI-Coder/community](https://badges.gitter.im/AI-Coder/community.svg)](https://gitter.im/AI-Coder/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
+AI-Coder is a PyCharm plugin that implements code words, code sentences, and code block recommendations through deep learning, and uses C/S to obtain recommendation results.
+
 <a href="README_zh.md">中文版</a>
 
 ## Directory Structure
-
-[![Join the chat at https://gitter.im/AI-Coder/community](https://badges.gitter.im/AI-Coder/community.svg)](https://gitter.im/AI-Coder/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 project 
 
@@ -79,3 +83,50 @@ tensorflow 1.13.1
 
 keras 2.2.4
 
+## Backend
+
+### 1. Preparation
+
+Install flask
+`pip install flask`
+
+### 2. Run
+
+Go to the backend folder and run serve.py.
+
+Enter `localhost:9078/plugin_test?keyword=helloworld` in your browser and the browser returns as follows.
+
+<img src="/doc/img/backend_helloworld.jpg" width="50%"/>
+
+The backend gets the data in keyword and returns after processing. Subsequent we use the model to process the input, the reason is the same.
+
+## Plugin
+
+### 1. Preparation
+
+- The IDE used to develop the plugin: IDEA 
+- The version used in the test: IntelliJ IDEA 2019.1 x64
+- The object to which the plugin applies: Pycharm 
+- The version used in the test: JetBrains PyCharm Community Edition 2019.1.1 x64
+
+**Attention**: Pycharm must have a community version installed! Otherwise it cannot be debugged.
+
+### 2. Import and run of plugin projects
+
+Open IDEA, File->open->the root directory of our project
+
+Then you need to configure:
+
+- Select the project root directory and right click in IDEA, Open module settings
+
+<img src="/doc/img/plugin_step1.jpg" width="50%"/>
+
+- Set the SDK of the project to the Pycharm community version installed on the machine, create a new SDK, and select the pycharm community root directory for the installation.
+
+<img src="/doc/img/plugin_step2.jpg" width="50%"/>
+
+<img src="/doc/img/plugin_step3.jpg" width="50%"/>
+
+-  A Pycahrm window is launched when the project is run, with the effect of our plugin.
+
+<img src="doc/img/plugin_example.jpg" width="50%"/>

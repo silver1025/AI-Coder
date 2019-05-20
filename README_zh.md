@@ -1,3 +1,11 @@
+# AI-Coder
+
+[![Join the chat at https://gitter.im/AI-Coder/community](https://badges.gitter.im/AI-Coder/community.svg)](https://gitter.im/AI-Coder/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
+AI-Code 是一个通过深度学习实现代码词、代码句、代码块推荐的PyCharm插件，采用C/S的方式获取推荐结果。
+
+<a href="README.md">English Version</a>
+
 ## 目录结构
 
 project 项目目录
