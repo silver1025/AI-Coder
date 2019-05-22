@@ -1,0 +1,2099 @@
+
+---------------------------------------------------------epoch=0--------------------------------------------------------------
+
+------ temperature:0.1
+model = Model()
+model.add(Dense())
+model.add(LSTM())
+model.add(LSTM())
+model.add(Dense(128,activation =))
+model.add(Dense())
+model.add(Dense(filters =,kernel_size =,kernel_regularizer =()))
+model.add(Dense())
+model.add(Dense())
+model.add(Dense())
+model.add(Dense())
+model.add(Dense())
+model.add(Dense())
+model.add(Dense(filters =,kernel_size =,kernel_regularizer =()))
+model.add(Dropout())
+model.add(Dense())
+model.add(Dense())
+model.add(Dropout())
+model.add(LSTM())
+model.add(Dense(filters =,kernel_size =,padding =,kernel_regularizer =()))
+model.add(Dropout())
+model.add(Dropout())
+model.add(Dense(filters =,kernel_size =,kernel_regularizer =()))
+model.add(Dense(filters =,activation =))
+model.add(Dense())
+model.add(Dropout())
+model.add(Dropout())
+model.add(LSTM())
+model.add(LSTM())
+model.add(Dropout())
+
+------ temperature:0.4
+model = Model()
+model.add(Dense())
+model.add(Dense(128,activation =))
+model.add(LSTM())
+model.add(LSTM())
+model.add(Dropout())
+model.add(Dense(64,activation =))
+model.add(Dense())
+model.add(Dense(filters =,kernel_size =,activation =))
+model.add(LSTM())
+model.add(LSTM())
+model.add(Dense())
+model.add(Dense(128,activation =))
+model.add(Dropout())
+model.add(LSTM())
+model.add(Dense())
+model.add(Dense())
+model.add(LSTM())
+model.add(Dense())
+model.add(Dense(filters =,kernel_size =,kernel_regularizer =()))
+model.add(LSTM(1,activation =))
+model.add(Activation())
+model.add(Dense(filters =,kernel_size =,padding =,kernel_regularizer =()))
+model.add(Dense(filters =,kernel_size =,kernel_regularizer =()))
+model.add(Dense(1,activation =))
+model.add(Dense(,kernel_size =,activation =))
+model.add(Dense())
+model.add(Dropout())
+model.add(Dense())
+model.add(Dense())
+
+------ temperature:0.8
+model = Model()
+model.add(Dense())
+model.add(LSTM())
+model.add(Dense())
+model.add(Dense())
+model.add(Dense())
+model.add(Dropout())
+model.add(Dense())
+model.add(Dense())
+model.add(Dense(filters =,kernel_size =,kernel_regularizer =()))
+model.add(Dense(1,activation =))
+model.add(Dropout())
+model.add(Dropout())
+model.add(Dense())
+model.add(Dense())
+model.add(Dense())
+model.add(Dense())
+model.add(Dense())
+model.add(Dense(filters =,kernel_size =,padding =,kernel_regularizer =()))
+model.add(Dropout())
+model.add(Dense())
+model.add(BatchNormalization())
+model.add(Dropout())
+model.add(Dense())
+model.add(Dense())
+model.add(Dense())
+model.add(Dense(filters =,activation =))
+model.add(Dropout())
+model.add(Dropout())
+model.add(Dense())
+
+---------------------------------------------------------epoch=1--------------------------------------------------------------
+==============================正在从断点开始续训模型==============================
+------ temperature:0.1
+input2 = Input())
+model = Sequential()
+model.add(LSTM(64,return_sequences =,input_shape =(),input_shape =(),name =))
+model.add(Dropout())
+model.add(Dense(units =,activation =))
+model.compile(optimizer =,optimizer =,metrics =[])
+model.compile(loss =,optimizer =,metrics =[])
+return model
+def __init__():
+model = Sequential()
+model.add(Dense(units =,activation =))
+model.add(Dropout())
+model.add(Dropout())
+model.add(Dropout())
+model.add(Activation())
+model.add(Dropout())
+model.add(Dropout())
+model.add(Dropout())
+model.add(Dropout())
+model.add(Dropout())
+model.add(Dropout())
+model.add(Dropout())
+model.add(Dropout())
+model.add(Dropout())
+model.add(Dropout())
+model.add(Dropout())
+model.add(Dropout())
+model.add(Dropout())
+model.add(Dense())
+model.add(Dropout())
+
+------ temperature:0.4
+input2 = Input())
+model = Sequential()
+model.add(Embedding(256,return_sequences =,input_shape =()))
+model.add(Dropout())
+model.add(Dropout())
+model.add(Dropout())
+model.add(Dropout())
+model.add(Activation())
+model.add(Dropout())
+model.add(Dropout())
+model.add(Dropout())
+model.add(Dropout())
+model.add(Activation())
+model.add(Dropout())
+model.add(Dropout())
+model.add(Dropout())
+model.add(Dropout())
+model.add(Activation())
+model.add(Dense(units =,activation =))
+model.compile(loss =,optimizer =,metrics =[])
+model.fit(X_train,y_train,batch_size =,batch_size =)
+if __name__ = =:
+self.model.add(Dense(1,activation =))
+model.compile(loss =,optimizer =,metrics =[])
+return model
+def __init__():
+model = Sequential()
+model.add(LSTM(32,return_sequences =,input_shape =()))
+model.add(Dropout())
+model.add(Dropout())
+
+------ temperature:0.8
+input2 = Input(),name =)
+for i in range():
+model = Sequential()
+model.add(LSTM(32,input_shape =(),return_sequences =))
+model.add(Dropout())
+model.add(Dropout())
+model.add(Dropout())
+model.add(Dropout())
+model.add(Dropout())
+model.add(Dropout())
+model.add(Dense())
+model.add(Dropout())
+model.add(Dropout())
+model.add(Dropout())
+model.add(Dropout())
+model.add(Dropout())
+model.add(Dropout())
+model.add(Dropout())
+model.add(Dense(1,activation =))
+model.compile(optimizer =,loss =,metrics =[])
+return model
+def __init__():
+model = Sequential()
+model.add(LSTM(16,input_shape =(),name =))
+model.add(Dropout())
+model.add(Activation())
+model.add(Dropout())
+model.add(Dropout())
+model.add(Dropout())
+model.add(Dropout())
+
+---------------------------------------------------------epoch=2--------------------------------------------------------------
+==============================正在从断点开始续训模型==============================
+------ temperature:0.1
+model.add(Dense())
+model.add(Dense())
+model.add(Dropout())
+model.add(Dense())
+model.add(Activation())
+return model
+def __init__():
+model = Sequential()
+model.add(LSTM(32,return_sequences =))
+model.add(Activation())
+model.compile(loss =,optimizer =,metrics =[])
+return model
+def __init__():
+model = Sequential()
+model.add(LSTM(32,return_sequences =))
+model.add(LSTM(256,return_sequences =))
+model.add(LSTM())
+model.add(Dropout())
+model.add(LSTM())
+model.add(Dense())
+model.add(Activation())
+model.compile(loss =,optimizer =,metrics =[])
+return model
+def build_model():
+model = Sequential()
+model.add(Dense(1,activation =))
+model.compile(loss =,optimizer =,metrics =[])
+return model
+def __init__():
+model = Sequential()
+
+------ temperature:0.4
+model.add(Dense())
+model.add(Activation())
+return model
+def __init__():
+model = Sequential()
+model.add(LSTM(256,return_sequences =,kernel_initializer =,activation =))
+model.add(LSTM(100,return_sequences =))
+model.add(LSTM(32,return_sequences =))
+model.add(Activation())
+model.compile(loss =,optimizer =,metrics =[])
+return model
+def __init__():
+model = Sequential()
+model.add(LSTM(32,return_sequences =))
+model.add(LSTM(256,return_sequences =))
+model.add(LSTM())
+model.add(Dense(1,activation =))
+model.compile(loss =,optimizer =,metrics =[])
+return model
+def __init__():
+model = Sequential()
+model.add(LSTM(input_dim =,return_sequences =))
+model.add(LSTM(units =,return_sequences =))
+model.add(LSTM(256,return_sequences =))
+model.add(LSTM(32,return_sequences =))
+model.add(Dense(1,activation =))
+model.compile(loss =,optimizer =())
+return model
+def __init__():
+model = Sequential()
+
+------ temperature:0.8
+model.add(LSTM())
+model.add(LSTM())
+model.add(Dense())
+model.add(Activation())
+return model
+def __init__(self,embedding_vecor_length,embedding_vecor_length,show_summaries =):
+model = Sequential()
+model.add(LSTM(256,return_sequences =,input_shape =()))
+model.add(Dropout())
+model.add(LSTM(16,return_sequences =))
+model.add(Dropout())
+model.add(LSTM(32,return_sequences =))
+model.add(LSTM(32,return_sequences =))
+model.add(Dense())
+model.add(Dense(1,activation =))
+model.compile(loss =,optimizer =)
+return model
+def __init__():
+model = Sequential()
+model.add(Embedding(top_words,256,input_length =))
+model.add(Dense())
+model.add(Dense())
+model.add(Activation())
+model.compile(loss =,optimizer =,metrics =[])
+return model
+def build_model():
+model = Sequential()
+model.add(LSTM(32,return_sequences =,input_shape =))
+model.add(LSTM(256,return_sequences =))
+model.add(LSTM())
+
+---------------------------------------------------------epoch=3--------------------------------------------------------------
+==============================正在从断点开始续训模型==============================
+------ temperature:0.1
+self.assertAllClose())
+model.compile(loss =,optimizer =,metrics =[])
+return model
+def build_model():
+model = Sequential()
+model.add(LSTM(32,input_shape =(),return_sequences =))
+model.add(Dense())
+model.add(Activation())
+model.compile(loss =,optimizer =,metrics =[])
+return model
+def Input(shape =():
+model = Sequential()
+model.add(Embedding(top_words,embedding_vecor_length,input_length =))
+model.add(Dense())
+model.add(Dense())
+model.add(Dense())
+model.add(Dense())
+model.add(Dense())
+model.add(Dense())
+model.add(Activation())
+return model
+def add():
+model.add(Dense())
+model.add(Dense())
+model.add(Activation())
+model.compile(loss =,optimizer =,metrics =[])
+return model
+def Reshape():
+model.add(Dense())
+model.add(Dense())
+
+------ temperature:0.4
+self.assertAllClose())
+self.model.add()
+return model
+def 2:
+return self.model.add()
+def compile(loss =,optimizer =,metrics =[])
+return model
+def build_model():
+model = Sequential()
+model.add(LSTM(units =,return_sequences =,input_shape =()))
+model.add(Dense())
+model.add(Activation())
+return model
+def top_words():
+model = Sequential()
+model.add(LSTM(256,input_shape =(),return_sequences =))
+model.add(Dropout())
+model.add(Dense())
+model.add(Activation())
+model.compile(loss =,optimizer =,metrics =[])
+return model
+def open():
+model.add(Dense())
+model.add(Dropout())
+model.add(Dense())
+model.add(Dense())
+model.add(Activation())
+model.add(Activation())
+model.compile(loss =,optimizer =,metrics =[])
+return model
+
+------ temperature:0.8
+self.assertAllClose()]
+return self.model.add()
+return model
+def build_model():
+model = Sequential()
+model.add(LSTM(64,input_shape =(),return_sequences =))
+model.add(Dense())
+model.add(Dense())
+model.add(Dropout())
+model.add(Dense())
+model.add(Activation())
+model.compile(loss =,optimizer =,metrics =[])
+return model
+def state,branch_5,path =):
+model = Sequential()
+model.add(LSTM(units =,return_sequences =,input_shape =()))
+model.add(Dense())
+model.add(Activation())
+model.add(Dense())
+model.add(Dense())
+model.add(Dense())
+model.add(Activation())
+model.add(Dense())
+model.add(Dense())
+model.add(Activation())
+model.compile(loss =,optimizer =,metrics =[])
+return model
+def BatchNormalization():
+model.add(Dense())
+model.add(Dense())
+
+---------------------------------------------------------epoch=4--------------------------------------------------------------
+==============================正在从断点开始续训模型==============================
+------ temperature:0.1
+return model
+def layers():
+def __init__():
+self.model = self.fit()
+self.model = self.fit()
+self.model.fit()
+def reshape():
+self.model.add(LSTM())
+self.model.add(Dropout())
+self.model.add(Dropout())
+self.model.add(Dropout())
+self.model.add(Dense(units =,activation =))
+model.add(Dropout())
+model.add(LSTM(self.rnn_size,return_sequences =))
+model.add(Dropout())
+model.add(Dense(self.nb_classes,activation =))
+model.compile(loss =,optimizer =,metrics =[])
+return model
+def BatchNormalization():
+model = Sequential()
+model.add(Embedding(input_dim =,input_length =))
+model.add(Dropout())
+model.add(Dense())
+model.add(Activation())
+model.add(Dropout())
+model.add(Dense())
+model.add(Activation())
+model.add(Activation())
+model.add(Dense())
+model.add(Activation())
+model.fit(x_train,y_train,batch_size =,epochs =)
+
+------ temperature:0.4
+return model
+def SimpleRNN():
+model = Sequential()
+model.add(LSTM())
+model.add(Dense())
+model.add(Activation())
+model.add(Dense())
+model.add(Activation())
+return model
+def Bidirectional():
+model = Sequential()
+model.add(LSTM())
+model.add(Dropout())
+model.add(Dense())
+model.add(Dropout())
+model.add(Dense())
+model.add(Activation())
+return model
+def Merge():
+def __init__():
+self.model = self.fit()
+def core():
+model = Sequential()
+model.add(Embedding())
+model.add(Dropout())
+model.add(Dense())
+model.add(Activation())
+return model
+def BatchNormalization():
+model.add(Dense(input_dim =,input_dim =,activation =))
+model.add(Dropout())
+
+------ temperature:0.8
+return model
+def __init__():
+self.model = Sequential()
+self.model.add()
+def models import Model
+from keras.layers import Dense,Activation
+from keras.layers.convolutional import Conv1D
+from keras.layers.convolutional import Conv1D
+from keras.layers.convolutional import Flatten
+from keras.layers.convolutional import BatchNormalization
+from keras.layers.convolutional import BatchNormalization
+from keras.layers.embeddings import Embedding
+from keras.layers.embeddings import Embedding
+from keras.layers.convolutional import Conv1D
+from keras.layers.convolutional import MaxPooling1D
+from keras.layers.convolutional import Conv1D
+from keras.layers.convolutional import MaxPooling1D
+from keras.layers.convolutional import MaxPooling1D
+from keras.layers.embeddings import Embedding
+from keras.layers.embeddings import Embedding
+from keras.layers.recurrent import LSTM
+from keras.layers.convolutional import MaxPooling1D
+from keras.layers.convolutional import Conv1D
+from keras.layers.convolutional import Conv1D
+from keras.layers.convolutional import BatchNormalization
+from keras.layers.embeddings import Embedding
+from keras.layers.convolutional import BatchNormalization
+from keras.layers.convolutional import BatchNormalization
+from keras.layers import LSTM
+from keras.layers.convolutional import BatchNormalization
+from keras.layers.convolutional import MaxPooling1D
+
+---------------------------------------------------------epoch=5--------------------------------------------------------------
+==============================正在从断点开始续训模型==============================
+------ temperature:0.1
+from tensorflow.import keras
+import numpy as np
+from sklearn.metrics import preprocessing
+from keras.layers.core import Dense,Dropout,Activation
+from keras.layers.convolutional import Conv1D
+from keras.layers.convolutional import MaxPooling1D
+from keras.layers.convolutional import Conv1D
+from keras.layers.convolutional import BatchNormalization
+from keras.layers.convolutional import Conv1D
+from keras.layers.convolutional import Conv1D
+from keras.layers.convolutional import BatchNormalization
+from keras.layers.convolutional import Conv1D
+from keras.layers.convolutional import Conv1D
+from keras.layers.convolutional import MaxPooling1D
+from keras.layers.convolutional import Conv1D
+from keras.layers.convolutional import MaxPooling1D
+from keras.layers.convolutional import MaxPooling1D
+from keras.layers.convolutional import Conv1D
+from keras.layers.convolutional import MaxPooling1D
+from keras.layers.convolutional import Conv1D
+from keras.layers.convolutional import Conv1D
+from keras.layers.convolutional import Conv1D
+from keras.layers.convolutional import Conv1D
+from keras.layers.convolutional import MaxPooling1D
+from keras.layers.convolutional import Conv1D
+from keras.layers.convolutional import Conv1D
+from keras.layers.convolutional import Conv1D
+from keras.layers.convolutional import Dense
+from keras.layers.convolutional import BatchNormalization
+from keras.layers.convolutional import Conv1D
+
+------ temperature:0.4
+from tensorflow.keras import Sequential
+from keras.layers.core import Dense,Activation,Dropout,Activation
+from keras.layers.convolutional import Conv1D
+from keras.layers.convolutional import Conv1D
+from keras.layers.convolutional import MaxPooling1D
+from keras.layers.convolutional import BatchNormalization
+from keras.layers.convolutional import MaxPooling1D
+from keras.layers.convolutional import Conv1D
+from keras.layers.convolutional import BatchNormalization
+from keras.layers.convolutional import BatchNormalization
+from keras.layers.convolutional import Conv1D
+from keras.layers.convolutional import MaxPooling1D
+from keras.layers.convolutional import Conv1D
+from keras.layers.convolutional import Conv1D
+from keras.layers.convolutional import MaxPooling1D
+from keras.layers.convolutional import Conv1D
+from keras.layers.convolutional import Conv1D
+from keras.layers.convolutional import MaxPooling1D
+from keras.layers.convolutional import BatchNormalization
+from keras.layers.convolutional import Conv1D
+from keras.layers.convolutional import MaxPooling1D
+from keras.layers.convolutional import BatchNormalization
+from keras.layers.convolutional import Conv1D
+from keras.layers.convolutional import MaxPooling1D
+from keras.layers.convolutional import Conv1D
+from keras.layers.convolutional import Conv1D
+from keras.layers.convolutional import Conv1D
+from keras.layers.convolutional import Conv1D
+from keras.layers.convolutional import BatchNormalization
+from keras.layers import LSTM
+
+------ temperature:0.8
+from tensorflow.keras import backend as K
+from tensorflow.python.keras import backend as K
+from tensorflow.python.keras import layers
+from keras.layers.convolutional import MaxPooling1D
+from keras.layers.convolutional import MaxPooling1D
+from keras.layers.convolutional import Conv1D
+from keras.layers.convolutional import MaxPooling1D
+from keras.layers.convolutional import Conv1D
+from keras.layers.convolutional import Conv1D
+from keras.layers.convolutional import Conv1D
+from keras.layers.convolutional import Conv1D
+from keras.layers.convolutional import MaxPooling1D
+from keras.layers.convolutional import BatchNormalization
+from keras.layers.convolutional import Conv1D
+from keras.layers.convolutional import Conv1D
+from keras.layers.convolutional import Conv1D
+from keras.layers.convolutional import Conv1D
+from keras.layers.convolutional import Conv1D
+from keras.layers.convolutional import Conv1D
+from keras.layers.convolutional import Conv1D
+from keras.layers.convolutional import MaxPooling1D
+from keras.layers.convolutional import MaxPooling1D
+from keras.layers.convolutional import MaxPooling1D
+from keras.layers.convolutional import Conv1D
+from keras.layers.convolutional import MaxPooling1D
+from keras.layers.convolutional import Conv1D
+from keras.layers.convolutional import Conv1D
+from keras.layers.convolutional import Conv1D
+from keras.layers.convolutional import Conv1D
+from keras.layers.convolutional import Conv1D
+
+---------------------------------------------------------epoch=6--------------------------------------------------------------
+==============================正在从断点开始续训模型==============================
+------ temperature:0.1
+return model
+def add():
+Dense = 1,activation =)
+return model
+def =():
+model = Sequential()
+model.add(Embedding())
+model.add(Dropout())
+model.add(Dense(1,activation =))
+model.compile(loss =,optimizer =,metrics =[])
+return model
+def fit(self,epochs =,batch_size =,verbose =,validation_split =):
+self.model = Sequential()
+self.model.add(LSTM(256,return_sequences =,input_shape =()))
+self.model.add(Dropout())
+self.model.add(Dense(64,activation =))
+self.model.add(Dense(units =,activation =))
+self.model.add(Dropout())
+self.model.add(Dropout())
+self.model.add(Dense(256,activation =))
+self.model.add(Dropout())
+self.model.add(Dense(256,activation =))
+self.model.add(Dropout())
+self.model.add(LSTM(256,return_sequences =))
+model.add(LSTM(self.nb_classes,activation =))
+self.model.add(Dropout())
+self.model.add(Dropout())
+self.model.add(Dropout())
+self.model.add(Dropout())
+self.model.add(Dropout())
+self.model.add(Dropout())
+
+------ temperature:0.4
+return model
+def model():
+model = Sequential()
+model.add(Embedding())
+model.add(Dropout())
+model.add(Dense(1,activation =))
+model.compile(loss =,optimizer =,metrics =[])
+return model
+def fit(self,batch_size =,epochs =,batch_size =,verbose =,dropout =,callbacks =,callbacks =,verbose =,mode =):
+model = Sequential()
+model.add(LSTM(64,return_sequences =,input_shape =()))
+model.add(Dropout())
+model.add(Dense(1,activation =))
+model.compile(loss =,optimizer =,metrics =[])
+return model
+def build_model():
+model = Sequential()
+model.add(Embedding())
+model.add(Dropout())
+model.add(Dense())
+model.add(Activation())
+return model
+def models():
+model = Sequential()
+model.add(Embedding())
+model.add(Dropout())
+model.add(Dense(1,activation =))
+model.compile(loss =,optimizer =,metrics =[])
+return model
+def model():
+model = Sequential()
+
+------ temperature:0.8
+return model
+def __init__(self,callbacks =,nput_shape =():
+self.model = Sequential()
+self.model.add(LSTM(256,return_sequences =,input_shape =()))
+model.add(Dropout())
+model.add(Dense(self.nb_classes,activation =))
+return model
+def __init__(self,input_dim =,dropout =):
+self.append()
+self.model = Sequential()
+self.model.add(Dense(128,activation =))
+self.model.add(Dense(self.nb_classes,activation =))
+self.model.compile(loss =,optimizer =,metrics =[])
+return model
+def recurrent():
+def __init__():
+self.model = self.model.predict()
+self.return self.model.predict()
+def model():
+self.model = Sequential()
+self.model.add(Dense(64,activation =))
+self.model.add(Dropout())
+self.model.add(Dense(256,activation =))
+self.model.add(Dense(1,activation =))
+self.model.compile(loss =,optimizer =,metrics =[])
+return model
+def models():
+self.model = Sequential()
+self.model.add(TimeDistributed(Dense(1,activation =))
+self.model.compile(loss =,optimizer =(lr =),metrics =[])
+return model
+
+---------------------------------------------------------epoch=7--------------------------------------------------------------
+==============================正在从断点开始续训模型==============================
+------ temperature:0.1
+model.add(Dense(1,activation =))
+model.compile(loss =,optimizer =,metrics =[])
+return model
+def.():
+return model
+def __init__():
+self.model = self.fit(self.model.fit(x_train,y_train,epochs =,batch_size =,verbose =)
+def compile(optimizer =):
+return()
+def __init__(self,callbacks =,validation_split =,verbose =):
+self.model = Sequential()
+self.model.add(LSTM(units =,input_shape =(),return_sequences =))
+self.model.add(Dense(self.compile())
+self.model = Sequential()
+self.model.add(LSTM(units =,return_sequences =,input_shape =()))
+self.model.add(LSTM())
+model.add(LSTM(self.nb_classes,activation =))
+self.model.compile(loss =,optimizer =(),metrics =[])
+self.model.fit(x_train,y_train,batch_size =,verbose =)
+model.compile(loss =,optimizer =,metrics =[])
+return model
+def.():
+self.model = Sequential()
+self.model.add(LSTM(self.model.add(Dense(self.return self.model,input_shape =()))
+self.model = self.model.def input_shape():
+self.model = self.models = self.fit()
+def __init__(self,dropout:):from keras.layers.convolutional import Conv1D
+from keras.layers import LSTM
+from keras.layers.convolutional import Conv1D
+from keras.layers import Dense
+
+------ temperature:0.4
+model.add(Dense())
+model.add(Activation())
+model.compile(loss =,optimizer =,metrics =[])
+return model
+def import numpy as np
+import numpy as np
+import matplotlib
+import argparse
+import keras
+import csv
+from keras.layers import LSTM,Dense,Dropout,Activation,Flatten
+from keras.layers.convolutional import Conv1D
+from keras.layers.convolutional import Conv1D
+from keras.layers.convolutional import Conv1D
+from keras.layers.convolutional import Conv1D
+from keras.layers import Dropout
+from keras.layers import LSTM
+from keras.layers import LSTM
+from keras.layers.convolutional import Conv1D
+from keras.layers.convolutional import Conv1D
+from keras.layers import Conv1D
+from keras.layers import LSTM
+from keras.layers import LSTM
+from keras.layers import Conv1D,MaxPooling1D
+from keras.callbacks import ModelCheckpoint
+from keras.callbacks import ModelCheckpoint
+from keras.callbacks import TensorBoard
+def __init__(self,output_dim =,callbacks =[-1]):
+self.model = Sequential()
+self.model.add(LSTM(16,input_shape =()))
+
+------ temperature:0.8
+model.add(Dense())
+return model
+def __init__():
+model = Sequential()
+model.add(LSTM(64,input_shape =(),return_sequences =))
+model.add(LSTM(units =,return_sequences =))
+model.add(Dropout())
+model.add(LSTM(units =,return_sequences =))
+model.add(Dropout())
+model.add(LSTM(units =,return_sequences =))
+model.add(Dense(256,activation =))
+model.add(Dense())
+model.add(Activation())
+model.compile(loss =,optimizer =,metrics =[])
+return model
+def import numpy as np
+import matplotlib.pyplot as plt
+from keras.regularizers import l2
+def build_model(top_words,embedding_vecor_length,max_review_length,show_summaries =):
+input_layer = Embedding(top_words,embedding_vecor_length,input_length =)
+branch_2 = Sequential()
+branch_3.add()
+branch_3.add(Conv1D(filters =,kernel_size =,padding =,kernel_regularizer =()))
+branch_5.add(Activation())
+branch_5.add(MaxPooling1D(pool_size =))
+branch_5.add(Dropout())
+branch_5.add(BatchNormalization())
+branch_5.add(Conv1D(filters =,kernel_size =,padding =,kernel_regularizer =()))
+branch_3.add(Activation())
+branch_3.add(MaxPooling1D(pool_size =))
+
+---------------------------------------------------------epoch=8--------------------------------------------------------------
+==============================正在从断点开始续训模型==============================
+------ temperature:0.1
+X1 = np.array()
+model = Sequential()
+model.add(Embedding())
+model.add(Dropout())
+model.add(Dense())
+model.add(Activation())
+model.compile(loss =,optimizer =)
+return model
+def model():
+model = Sequential()
+model.add(Embedding())
+model.add(Dropout())
+model.add(Dense())
+model.add(Activation())
+model.compile(loss =,optimizer =)
+return model
+def import,():
+def __init__():
+self.model = Sequential()
+self.model.add(Dense(32,activation =))
+model.compile(loss =,optimizer =(),metrics =[])
+model.fit(X_train,y_train,batch_size =,nb_epoch =,batch_size =,epochs =,batch_size =,nb_epoch =,callbacks =[i])
+model.compile(loss =,optimizer =)
+return model
+def,():
+self.model = Sequential()
+self.model.add(Embedding(self.output,units =,return_sequences =,input_shape =(),units =,return_sequences =))
+model.add(Dropout())
+model.add(LSTM(units =,return_sequences =,input_shape =()))
+model.add(LSTM(units =,return_sequences =))
+
+------ temperature:0.4
+X1 = np.array()
+()=()
+model = Sequential()
+model.add(Embedding())
+model.add(Dropout())
+model.add(Dense())
+model.add(Activation())
+model.compile(loss =,optimizer =)
+return model
+def():
+model = Sequential()
+model.add(Embedding())
+model.add(Dropout())
+model.add(LSTM())
+model.add(Dropout())
+model.add(Dense(1,activation =))
+model.compile(loss =,optimizer =)
+return model
+def import,():
+def __init__():
+self.model = Sequential()
+self.model.add(Embedding())
+self.model.add(Dropout())
+self.model.add(Dense(self.rnn_size,input_shape =(),units =,activation =))
+model.add(Dense(self.rnn_size,activation =))
+model.add(Dropout())
+model.add(Dense(self.rnn_size,activation =))
+model.add(Dropout())
+model.add(Dense(64,activation =))
+model.add(Dropout())
+
+------ temperature:0.8
+X1 = np.array()
+model = Sequential()
+model.add(Embedding())
+model.add(LSTM())
+model.add(Dropout())
+model.add(Dense())
+model.add(Activation())
+model.compile(loss =,optimizer =)
+return model
+def Dense():
+model = Sequential()
+model.add(Embedding())
+model.add(Dropout())
+model.add(LSTM(input_shape =(),return_sequences =))
+model.add(LSTM())
+model.add(Dropout())
+model.add(Dense())
+model.add(Activation())
+model.compile(loss =,optimizer =)
+return model
+def,():
+def model():
+model = Sequential()
+model.add(Embedding(top_words,embedding_vecor_length,input_length =))
+model.add(Dropout())
+model.add(LSTM())
+model.add(Dropout())
+model.add(Dense())
+model.add(Activation())
+model.compile(loss =,optimizer =)
+
+---------------------------------------------------------epoch=9--------------------------------------------------------------
+==============================正在从断点开始续训模型==============================
+------ temperature:0.1
+history = model.predict()
+def.():
+self.model = self.input_shape =()
+self.model = Sequential()
+self.model.add(LSTM(units =,return_sequences =))
+model.add(Dropout())
+model.add(LSTM(units =,return_sequences =))
+model.add(Dropout())
+model.add(LSTM(units =,return_sequences =))
+model.add(TimeDistributed(Dense()))
+model.add(Activation())
+model.compile(loss =,optimizer =,metrics =[])
+return model
+def,recurrent_dropout =):
+self.model = Sequential()
+self.model.add(LSTM(units =,return_sequences =,input_shape =()))
+model.add(LSTM(units =,return_sequences =))
+model.add(LSTM(units =,return_sequences =))
+model.add(Dropout())
+model.add(LSTM(units =,return_sequences =))
+model.add(Dropout())
+model.add(Dense(64,activation =))
+model.add(Dropout())
+model.add(Dense())
+model.add(Activation())
+model.compile(loss =,optimizer =,metrics =[])
+return model
+def,():
+def __init__():
+self.model = self.if self.verbose from keras.callbacks import ModelCheckpoint
+
+------ temperature:0.4
+history = model.fit(X_train,y_train,batch_size =,verbose =,save_best_only =,mode =)
+model = Sequential()
+model.add(LSTM(256,return_sequences =,input_shape =()))
+model.add(Dropout())
+model.add(LSTM(64,return_sequences =))
+model.add(LSTM(64,input_shape =(),return_sequences =))
+model.add(Dropout())
+model.add(Dense(1,activation =))
+model.compile(loss =,optimizer =,metrics =[])
+return model
+def import numpy as np
+from keras.models import Sequential
+from keras.layers import Dense,Dropout,Activation,Flatten
+from keras.layers.embeddings import Embedding
+from keras.layers import Embedding
+from keras.layers import LSTM
+from keras.layers import LSTM
+from keras.layers import LSTM
+from keras.layers.convolutional import MaxPooling1D
+from keras.layers import LSTM
+from keras.layers.convolutional import Conv1D
+from keras.layers.convolutional import MaxPooling1D
+from keras.layers.convolutional import MaxPooling1D
+from keras.layers.convolutional import MaxPooling1D
+from keras.layers.convolutional import MaxPooling1D
+from keras.layers.convolutional import MaxPooling1D
+from keras.layers.convolutional import MaxPooling1D
+from keras.layers.convolutional import Conv1D
+from keras.layers.convolutional import MaxPooling1D
+from keras.layers.convolutional import MaxPooling1D
+
+------ temperature:0.8
+history = model.predict()
+return model
+def.():
+self.model = self.input_shape =()
+self.model = self.X()
+def __init__():
+self.dropout = self.model.add(Bidirectional(LSTM(units =,return_sequences =,input_shape =(),units =,return_sequences =))
+self.model.add(Dropout())
+self.model.add(Dense(self.rnn_size,return_sequences =))
+self.model.add(Dropout())
+self.model.add(Dense(units =,activation =))
+self.model.add(Dropout())
+self.model.add(Dense(self.nb_classes,activation =))
+self.model = Sequential()
+self.model.add(Dense(self.rnn_size,return_sequences =))
+model.add(Dropout())
+model.add(LSTM(units =,return_sequences =))
+model.add(TimeDistributed(Dense(units =)))
+model.add(Activation())
+model.compile(loss =,optimizer =,metrics =[])
+return model
+def preprocessing():
+units = 3
+def __init__():
+self.dropout = self.input_shape
+self.model = self.model.add(Bidirectional(LSTM(Var.hidden_units,return_sequences =,activation =,name =,self.preprocessing =,tensorflow.keras.layers.Masking(Dense(self.rnn_size,input_shape =(),name =))()
+model.add(LSTM(units =,return_sequences =))
+model.add(TimeDistributed(Dense(units =,name =)))
+model.add(TimeDistributed(Conv2D(64,(),activation =)))
+
+---------------------------------------------------------epoch=10--------------------------------------------------------------
+==============================正在从断点开始续训模型==============================
+------ temperature:0.1
+plt.figure()
+plt.plot(history.history[],[],optimizer =,metrics =[])
+plt.plot(history.history[],epochs =,verbose =)
+plt.plot(history.history[],)
+plt.plot(history.history[],[],optimizer =,metrics =[])
+plt.plot(history.history[],)
+plt.plot(optimizer.array(),callbacks =[])
+plt.plot(history.history[],[],dropout =,return_sequences =)
+plt.plot(optimizer,loss =,dropout =)
+plt.plot(history.Embedding(input_dim =,output_dim =,input_length =,dropout =))
+plt.compile(loss =,optimizer =)
+return self.model.predict(np.reshape())
+def add():
+return self.model.predict()
+def __init__():
+self.model = Sequential()
+self.model.add(Embedding(256,input_dim =,input_length =))
+self.model.add(Dropout())
+self.model.add(Dense())
+self.model.add(Dropout())
+self.model.add(Dense(units =,activation =))
+self.model.add(Dropout())
+self.model.add(Dense(256,activation =))
+self.model.add(Dropout())
+self.model.add(Dense(units =,activation =))
+self.model.compile(loss =,optimizer =,metrics =[])
+self.model.summary()
+def build_model():
+self.model.add(Dense())
+self.model.add(Dropout())
+
+------ temperature:0.4
+plt.figure()
+plt.plot(history.history[],)
+plt.plot(history.history[],)
+plt.plot(history.history[],)
+plt.plot(history.history[],[],epochs =,verbose =,mode =)
+plt.plot(history.history[],epochs =,verbose =)
+plt.plot(history.history[],optimizer =,dropout =[])
+plt.plot(history.history[],[],optimizer =,metrics =[])
+plt.plot(history.history[],)
+plt.plot(history.history[],[],optimizer =,dropout =[])
+plt.plot(history.history[],[],optimizer =,metrics =[])
+plt.plot(history.history[],)
+plt.plot(history.history[],epochs =,batch_size =,verbose =)
+plt.plot(history.history[],epochs =,verbose =)
+plt.plot(history.history[],)
+plt.plot(history.history[],[],optimizer =,dropout =[])
+plt.plot(history.history[],)
+plt.plot(history.history[],)
+plt.plot(history.history[],[],verbose =,return_sequences =)
+plt.plot(class Dense(),).callbacks.ModelCheckpoint(filepath =,verbose =,save_best_only =,mode =)
+model.add(Dense())
+model.add(Activation())
+return model
+def model():
+model.add(Dense())
+model.add(Activation())
+return model
+def
+import keras
+from keras.models import Sequential
+
+------ temperature:0.8
+plt.figure()
+plt.plot(class):
+def __init__():
+self.model = Sequential()
+self.model.add(Embedding(self.elif self.model.add(Bidirectional(LSTM(self.rnn_size,return_sequences =)))
+self.model.add(Dropout())
+self.model.add(Dense(self.nb_classes,activation =))
+def build_model():
+self.model = Sequential()
+self.model.add(Embedding(input_dim =,output_dim =,return_sequences =))
+self.model.add(Dropout())
+self.model.add(LSTM(self.nb_classes,activation =))
+self.model.compile(loss =,optimizer =(),metrics =[])
+self.model.add(Activation())
+self.model.compile(loss =,optimizer =(),metrics =[])
+self.model.add(Dropout())
+self.model.add(Dense(64,activation =))
+self.model.add(Dropout())
+self.model.add(Dense(64,activation =))
+self.model.add(Dropout())
+self.model.add(Dense(units =,activation =))
+self.model.add(Dropout())
+self.model.add(Dense(units =,activation =))
+self.model.compile(loss =,optimizer =,metrics =[])
+self.model.fit(x_train,y_train,batch_size =,nb_epoch =,validation_data =())
+return model
+def model():
+self.model = Sequential()
+self.model.add(Embedding(units =,return_sequences =,self.add(Dropout()))
+self.model.add(Dense(output_dim =,activation =))
+
+---------------------------------------------------------epoch=11--------------------------------------------------------------
+==============================正在从断点开始续训模型==============================
+------ temperature:0.1
+test_input[c],,input_shape =())
+for i in range():
+return self.shape
+self.input_shape =()
+self.model = self.input_shape =()
+self.model = self.input_shape =()
+self.model = self.input_shape =()
+self.model = self.fit(self.format(),validation_split =)
+def
+self.model = self.input_shape =()
+self.model = self.input_shape =()
+self.model = self.input_shape =()
+self.model = self.input_shape =()
+self.model = self.input_shape =()
+self.model = self.lstm()
+self.model = self.return self.model
+def
+self.model = self.if self.model.model import keras
+self.fit()
+def Dense(self,batch_size =,nb_epoch =,batch_size =,validation_split =):
+self.input_shape =()
+self.model = self.lstm()
+def[]:
+self.model = self.input_shape =()
+self.model = self.input_shape =()
+self.model = self.input_shape =()
+self.model = self.input_shape =()
+self.model = self.input_shape =()
+self.model = self.if self.reshape()
+self.model = self.input_shape =()
+
+------ temperature:0.4
+test_input[c],,input_shape =())
+for i in range():
+return self.model.predict()
+def add(Dense(self.nb_classes,activation =)):
+return self.model.predict()
+def add():
+return self.model
+def
+self.model = self.input_shape =()
+self.model = self.input_shape =()
+self.model = self.input_shape =()
+self.model = self.__init__()
+self.input_shape =()
+self.model = self.input_shape =()
+self.model = self.input_shape =()
+self.model = self.__init__()
+self.input_shape =()
+self.model = self.input_shape =()
+self.model = self.input_shape =()
+self.model = self.input_shape =()
+self.model = self.input_shape =()
+self.model = self.elif self.:
+self.i = self.input_shape =()
+self.model = self.input_shape =()
+self.model = self.input_shape =()
+self.model = self.input_shape =()
+self.model = self.lstm()
+self.model = self.assertEqual()
+self.assertEqual()
+def
+
+------ temperature:0.8
+test_input[c],
+def Dense(self.nb_classes,activation =):
+return self.model
+def
+return()
+def LSTM(self,epochs =,batch_size =,validation_split =,validation_split =):
+from keras.layers import LSTM
+from keras.layers import Dropout
+from keras.layers import LSTM
+from keras.layers import LSTM
+from keras.layers import LSTM
+from keras.layers import LSTM
+from keras.models import Sequential
+from keras.layers import LSTM
+from keras.layers import Activation
+from keras.layers import LSTM
+from keras.layers import Flatten
+from keras.layers import LSTM
+from keras.layers import Dropout
+from keras.layers import LSTM
+from keras.layers import Activation
+from keras.layers import LSTM
+from keras.layers import LSTM
+from keras.layers import Flatten
+from keras.layers import LSTM
+from keras.layers import Activation
+from keras.layers import LSTM
+from keras.layers import Flatten
+from keras.layers import LSTM
+from keras.layers import Flatten
+
+---------------------------------------------------------epoch=12--------------------------------------------------------------
+==============================正在从断点开始续训模型==============================
+------ temperature:0.1
+model.reset_states()
+return model
+def Dense(self.nb_classes,activation =):
+return self.model.predict()
+def __init__(self,batch_size =,dropout =):
+self.model = self.lstm()
+elif model = =:
+self.model.save()
+def __init__():
+self.model = self.lstm()
+def layers(self.nb_classes,self.nb_classes,],self.nb_classes,self.if self.model.add(Dropout()))
+self.model.add(Dense(self.Dense(self.Dense(self.model.add(Activation())))
+self.model.compile(loss =,optimizer =,metrics =[])
+self.model.summary()
+def add(Dropout()):
+model.add(LSTM(self.,self.nb_classes,()))
+self.model.add(Dropout())
+self.model.add(Dense())
+self.model.add(Activation())
+self.model.compile(loss =,optimizer =(lr =),metrics =[])
+self.model.summary()
+def Dense(self.nb_classes,activation =):
+return self.model.fit(x_train,y_train,batch_size =,nb_epoch =,batch_size =,verbose =)
+def __init__(self,model =):
+self.model = self.lstm()
+def __init__(self,self.model =):
+self.model = self.lstm()
+elif model = =:
+self.model = self.lstm()
+elif model = =:
+
+------ temperature:0.4
+model.reset_states()
+model.compile(loss =,optimizer =,metrics =[])
+return model
+def Dense(self.nb_classes,activation =):
+return self.model.predict()
+def Dense(self.nb_classes,activation =):
+return self.model.predict()
+def add():
+def __init__(self,seq_length =,self.nb_classes,]= self.nb_classes:
+self.model = self.lstm()
+def layers(self,loss =,dropout =):
+self.model = Sequential()
+self.model.add(Embedding(self.rnn_size,return_sequences =))
+model.add(LSTM(self.input_shape =()))
+model.add(Dense(self.nb_classes,activation =))
+return model
+def keras.backend():
+self.model = self.__init__()
+self.model = self.lstm()
+elif model = =:
+self.model = self.lstm()
+def layers(self,optimizer =,loss =):
+self.model = Sequential()
+self.model.add(Embedding(self.nb_classes,self.model.add(Dropout()))
+self.model.add(LSTM(self.rnn_size,return_sequences =))
+model.add(TimeDistributed(Conv2D(64,(),adding =,activation =)))
+model.add(Conv3D(64,3,3,3,border_mode =,activation =,order_mode =,name =,name =,bsample =()))
+model.add(TimeDistributed(MaxPooling2D((),strides =(),strides =())))
+model.add(TimeDistributed(Conv2D(64,(),adding =,activation =)))
+model.add(TimeDistributed(Conv2D(32,(),adding =,activation =)))
+
+------ temperature:0.8
+model.reset_states()
+return model
+def LSTM(self,model =):
+model = Sequential()
+model.add(Embedding(input_dim =,output_dim =,input_length =,name =))
+model.add(LSTM())
+model.add(Dense())
+model.add(Activation())
+model.compile(loss =,optimizer =,metrics =[])
+return model
+def Dense(self.nb_classes,activation =):
+return model
+def
+model = Sequential()
+model.add(LSTM(256,input_shape =()))
+model.add(Dropout())
+model.add(Dense(64,activation =))
+model.add(Dropout())
+model.add(Dense())
+model.add(Activation())
+return model
+def
+model = Sequential()
+model.add(Embedding())
+model.add(Dropout())
+model.add(Dense())
+model.add(Activation())
+model.compile(loss =,optimizer =,metrics =[])
+return model
+def layers(name =):
+
+---------------------------------------------------------epoch=13--------------------------------------------------------------
+==============================正在从断点开始续训模型==============================
+------ temperature:0.1
+if remove_stopwords:
+model = Sequential()
+model.add(Embedding(top_words,embedding_vecor_length,input_length =))
+model.add(Dropout())
+model.add(LSTM())
+model.add(Dropout())
+model.add(Dense())
+model.add(Activation())
+model.compile(loss =,optimizer =,metrics =[])
+model.fit(x_train,y_train,batch_size =,nb_epoch =,validation_split =)
+def random():
+return model
+def
+return()
+def Dense(self,Flatten,numpy as np
+return self.model.fit()
+def __init__():
+self.input_shape =()
+self.model = self.model.predict()
+def LSTM(self,input_shape =(),return_sequences =):
+model = keras.models.Sequential()
+self.model.add(Embedding(units =,units =,input_shape =()))
+for _ in range():
+model.add(keras.layers.LSTM())
+model.add(keras.layers.Bidirectional(LSTM()))
+model.add(Dropout())
+model.add(Dense(self.nb_classes,activation =))
+return model
+def
+self.model = self.lstm()
+
+------ temperature:0.4
+if remove_stopwords:
+model = Sequential()
+model.add(Merge([model_language,model_image],mode =,concat_axis =))
+model.add(LSTM(units =,return_sequences =))
+model.add(Dropout())
+model.add(Dense(units =,activation =))
+model.add(Dropout())
+model.add(Dense(units =,activation =))
+model.add(Dropout())
+model.add(Dense(1,activation =))
+model.compile(loss =,optimizer =,metrics =[])
+model.fit(x_train,y_train,batch_size =,epochs =,batch_size =,validation_split =)
+def __init__():
+self.model = Sequential()
+self.model.add(LSTM(units =,return_sequences =))
+model.add(TimeDistributed(Dense(units =)))
+self.model.compile(loss =,optimizer =,metrics =[])
+def):
+self.model = Sequential()
+self.model.add(TimeDistributed(Dense(units =,activation =)))
+self.model.compile(loss =,optimizer =,metrics =[])
+def):
+self.model = Sequential()
+self.model.add(Embedding(LSTM,return_sequences =,input_shape =()))
+model.add(Dropout())
+model.add(Dense(units =,activation =))
+model.compile(loss =,optimizer =,metrics =[])
+return model
+def,(self,batch_size =,nb_epoch =,validation_split =):
+self.model = Sequential()
+
+------ temperature:0.8
+if remove_stopwords:
+model = Sequential()
+model.add(LSTM(units =,return_sequences =,input_shape =()))
+model.add(Dropout())
+model.add(LSTM(32,return_sequences =))
+model.add(Dropout())
+model.add(LSTM(units =,return_sequences =,activation =))
+model.add(Dense(units =))
+model.add(Activation())
+model.compile(loss =,optimizer =,metrics =[])
+model.fit(x_train,y_train,batch_size =,nb_epoch =,batch_size =)
+return model
+def,():
+def __init__():
+self.input_shape =()
+self.model = self.reshape()
+self.model = self.model.predict()
+def LSTM(self,input_shape =(),return_sequences =):
+model = keras.models.Sequential()
+self.model.add(Embedding(units =,input_length =,dropout =,recurrent_dropout =))
+model.add(Dropout())
+model.add(Dense(units =))
+model.add(Activation())
+model.compile(loss =,optimizer =,metrics =[])
+return model
+def =(self,batch_size =):
+self.model = self.import kernel_size
+self.input_shape =()
+self.model = self.lstm()
+def LSTM(self,input_shape =(),name =):
+
+---------------------------------------------------------epoch=14--------------------------------------------------------------
+==============================正在从断点开始续训模型==============================
+------ temperature:0.1
+from master import run_model,generate_read_me,get_text_data,load_word2vec
+import time
+import numpy as np
+import matplotlib
+import argparse
+import keras
+import csv
+from keras.datasets import imdb
+from keras.models import Sequential
+from keras.layers import Dense,Dropout,Activation,Flatten,Embedding,LSTM,Bidirectional,LSTM,Activation,Flatten
+from keras.layers.embeddings import Embedding
+from keras.utils import plot_model
+import matplotlib.pyplot as plt
+from keras.regularizers import l2
+def build_model(top_words,embedding_vecor_length,max_review_length,show_summaries =):
+input_layer = Embedding(top_words,embedding_vecor_length,input_length =)
+branch_2 = Sequential()
+branch_3 = Sequential()
+branch_3.add()
+branch_3.add(Conv1D(filters =,kernel_size =,padding =,kernel_regularizer =()))
+branch_3.add(Activation())
+branch_3.add(MaxPooling1D(pool_size =))
+branch_3.add(Dropout())
+branch_3.add(LSTM())
+branch_3 = Sequential()
+branch_3.add()
+branch_3.add(Conv1D(filters =,kernel_size =,padding =,kernel_regularizer =()))
+branch_3.add(Activation())
+branch_3.add(MaxPooling1D(pool_size =))
+branch_3.add(Dropout())
+
+------ temperature:0.4
+from master import run_model,generate_read_me,get_text_data,load_word2vec
+import time
+import numpy as np
+import matplotlib
+import argparse
+import keras
+import csv
+from keras.datasets import imdb
+from keras.models import Sequential
+from keras.layers import Dense,Dropout,Activation,Flatten,Flatten,Embedding,LSTM,TimeDistributed,Activation,Conv1D,MaxPooling1D,LSTM,Bidirectional,LSTM,recurrent_dropout,return_sequences,Dropout,Flatten,Dense,Dropout,Activation,Flatten,Flatten,Flatten,LSTM,Dropout,Flatten,Flatten
+from keras.layers.embeddings import Embedding
+from keras.layers.convolutional import Conv1D
+from keras.layers.convolutional import MaxPooling1D
+from keras.layers.embeddings import Embedding
+from keras.preprocessing import sequence
+from keras.utils import plot_model
+import matplotlib.pyplot as plt
+from keras.regularizers import l2
+def build_model(top_words,embedding_vecor_length,max_review_length,show_summaries =):
+input_layer = Embedding(top_words,embedding_vecor_length,input_length =)
+branch_2 = Sequential()
+branch_2.add()
+branch_2.add(Conv1D(filters =,kernel_size =,padding =,kernel_regularizer =()))
+branch_2.add(Activation())
+branch_2.add(MaxPooling1D(pool_size =))
+branch_2.add(Dropout())
+branch_2.add(LSTM())
+branch_2.add(Dropout())
+branch_2.add(LSTM())
+
+------ temperature:0.8
+from master import run_model,generate_read_me,get_text_data,load_word2vec
+import time
+import numpy as np
+import matplotlib
+import argparse
+import keras
+import csv
+from keras.datasets import imdb
+from keras.models import Sequential
+from keras.layers import Dense,Dropout,Activation,Flatten,Embedding,LSTM,Flatten,Flatten
+from keras.layers.recurrent import LSTM
+from keras.layers.convolutional import Conv1D
+from keras.layers.convolutional import MaxPooling1D
+from keras.layers.embeddings import Embedding
+from keras.preprocessing import sequence
+from keras.utils import plot_model
+import matplotlib.pyplot as plt
+from keras.regularizers import l2
+def build_model(top_words,embedding_vecor_length,max_review_length,show_summaries =):
+input_layer = Embedding(top_words,embedding_vecor_length,input_length =)
+branch_2 = Sequential()
+branch_2.add()
+branch_2.add(Conv1D(filters =,kernel_size =,padding =,kernel_regularizer =()))
+branch_2.add(Activation())
+branch_2.add(MaxPooling1D(pool_size =))
+branch_2.add(Dropout())
+branch_2.add(LSTM())
+branch_2.add(Dropout())
+branch_2.add(LSTM())
+branch_3 = Sequential()
+
+---------------------------------------------------------epoch=15--------------------------------------------------------------
+==============================正在从断点开始续训模型==============================
+------ temperature:0.1
+targ = targ[1].y[0]
+for i in range():
+for i in range():
+for i in range():
+for i in range(0,len():]
+self.model.add(Conv1D(filters =,kernel_size =,padding =,activation =,strides =,kernel_initializer =))
+model.add(keras.layers.LSTM(args.,return_sequences =,dropout =,recurrent_dropout =))
+if self.model = Sequential()
+model.add()
+self.model.add(Bidirectional(LSTM(256,return_sequences =,stateful =)))
+model.add(Dropout())
+model.add(Dense(units =[-1]))
+model.add(Activation())
+model.compile(loss =,optimizer =,metrics =[])
+return model
+def,units,Reshape =,input_shape =(),input_shape =(),return_sequences =):
+model = Sequential()
+model.add(LSTM(256,return_sequences =,input_shape =()))
+model.add(Dropout())
+model.add(Dense())
+model.add(Activation())
+model.compile(loss =,optimizer =,metrics =[])
+if __name__ = =:
+return model
+def,outputs,batch_size =):
+return model
+def
+X = X[:,y = x[i],y,y = np.array()
+model = Sequential()
+model.add(LSTM(256,input_shape =(),return_sequences =))
+
+------ temperature:0.4
+targ = targ[1]
+if self.branch_6.add()
+branch_6.add(Dropout())
+branch_6.add(BatchNormalization())
+branch_6.add(LSTM())
+branch_6 = Sequential()
+branch_6.add()
+branch_6.add(Conv1D(filters =,kernel_size =,padding =,kernel_regularizer =()))
+branch_6.add(Activation())
+branch_6.add(MaxPooling1D(pool_size =))
+branch_6.add(Dropout())
+branch_6.add(BatchNormalization())
+branch_6.add(LSTM())
+branch_6 = Sequential()
+branch_6.add()
+branch_6.add(Conv1D(filters =,kernel_size =,padding =,kernel_regularizer =()))
+branch_6.add(Activation())
+branch_6.add(MaxPooling1D(pool_size =))
+branch_6.add(Dropout())
+branch_6.add(BatchNormalization())
+branch_6.add(BatchNormalization())
+branch_6.add(LSTM())
+branch_6 = Sequential()
+branch_6.add()
+branch_6.add(Conv1D(filters =,kernel_size =,padding =,kernel_regularizer =()))
+branch_6.add(Activation())
+branch_6.add(MaxPooling1D(pool_size =))
+branch_6.add(Dropout())
+branch_6.add(BatchNormalization())
+branch_6.add(LSTM())
+
+------ temperature:0.8
+targ = targ,y,epochs =,batch_size =)
+def model,axis =):
+model = Sequential()
+model.add(LSTM(256,input_shape =(),return_sequences =))
+model.add(Dropout())
+model.add(LSTM(units =,return_sequences =))
+model.add(Dropout())
+model.add(Dense())
+model.add(Activation())
+model.compile(loss =,optimizer =,metrics =[])
+return model
+def,input_length =):
+model = Sequential()
+model.add(LSTM(64,input_shape =(),return_sequences =))
+model.add(Dropout())
+model.add(LSTM(256,return_sequences =))
+model.add(Dropout())
+model.add(LSTM(units =,return_sequences =))
+model.add(Dropout())
+model.add(Dense())
+model.add(Activation())
+model.compile(loss =,optimizer =,metrics =[])
+return model
+def,Input =(():,batch_size =,TimeDistributed =()))
+model_lstm.add(Dense())
+branch_3.add(Activation())
+branch_3.add(MaxPooling1D(pool_size =))
+branch_3.add(Dropout())
+branch_3.add(BatchNormalization())
+branch_3.add(LSTM())
+
+---------------------------------------------------------epoch=16--------------------------------------------------------------
+==============================正在从断点开始续训模型==============================
+------ temperature:0.1
+model.add(Embedding(input_dim =[0],output_dim =[1],return_sequences =))
+model.add(LSTM(units =,return_sequences =))
+model.add(Dropout())
+model.add(LSTM(units =,return_sequences =))
+model.add(Dropout())
+model.add(LSTM(units =,return_sequences =))
+model.add(LSTM())
+model.add(Dense())
+model.add(Activation())
+model.compile(loss =,optimizer =,metrics =[])
+model.fit(x_train,y_train,batch_size =,epochs =,batch_size =)
+return model
+def =():
+return self.model.predict()
+def __init__():
+return self.model.predict()
+def __init__():
+return self.model.predict()
+def __init__():
+return self.assertAllClose(keras.backend.eval(),np.ones(()))
+def __init__():
+self.input_shape =
+self.assertEqual()
+self.assertEqual()
+self.assertEqual()
+self.assertEqual()
+self.assertEqual()
+self.assertEqual()
+self.assertEqual()
+self.assertEqual()
+
+------ temperature:0.4
+model.add(Embedding())
+model.add(Dropout())
+model.add(Dense())
+model.add(Activation())
+model.compile(loss =,optimizer =,metrics =[])
+model.fit(x_train,y_train,epochs =,batch_size =)
+model.save()
+from keras.models import Sequential
+from keras.layers import Dense,Dropout,Activation
+from keras.layers.core import Reshape
+from keras.layers.convolutional import MaxPooling1D
+from keras.layers.embeddings import Embedding
+from keras.preprocessing import sequence
+from keras.utils import plot_model
+import matplotlib.pyplot as plt
+from keras.regularizers import l2
+def build_model(top_words,embedding_vecor_length,max_review_length,show_summaries =):
+input_layer = Embedding(top_words,embedding_vecor_length,input_length =)
+branch_2 = Sequential()
+branch_2.add()
+branch_2.add(Conv1D(filters =,kernel_size =,padding =,kernel_regularizer =()))
+branch_2.add(Activation())
+branch_2.add(MaxPooling1D(pool_size =))
+branch_2.add(Dropout())
+branch_2.add(BatchNormalization())
+branch_2.add(LSTM())
+branch_2.add(Dropout())
+branch_2.add(LSTM())
+branch_2.add(Dropout())
+branch_2.add(LSTM())
+
+------ temperature:0.8
+model.add(LSTM(units,return_sequences =,input_shape =()))
+model.add(LSTM())
+model.add(Dense())
+model.add(Activation())
+model.compile(loss =,optimizer =,metrics =[])
+return model
+def add(Dense(1,activation =):):
+model.compile(loss =,optimizer =,metrics =[])
+model.fit(X_train,y_train,batch_size =,epochs =,batch_size =)
+model.save()
+def __init__():
+self.model = Sequential()
+self.model.add(Dense(self.branch_7.type =))
+self.model.add(Dropout())
+self.model.add(Dense(units =[-1]))
+if self.model.add(Activation())
+if self.model.add(Dropout())
+self.model.add(Dense(self.nb_classes,activation =))
+return model
+def =:
+self.model = self.model.predict()
+def layers.LSTM(optimizer,activation =):
+return self.model.predict()
+return self.model.predict()
+def __init__():
+self.input_shape =()
+self.assertEqual()
+self.assertEqual()
+self.assertEqual()
+self.assertEqual()
+
+---------------------------------------------------------epoch=17--------------------------------------------------------------
+==============================正在从断点开始续训模型==============================
+------ temperature:0.1
+from keras.layers import Dense,Dropout,Activation
+from keras.layers import LSTM
+from keras.layers import Dropout
+from keras.layers import LSTM
+from keras.layers import Dropout
+from keras.layers import LSTM
+from keras.layers.convolutional import MaxPooling1D
+from keras.layers.embeddings import Embedding
+from keras.layers import LSTM
+from keras.layers import Dropout
+from keras.layers import LSTM
+from keras.layers import Dropout
+from keras.layers import LSTM
+from keras.layers import Dropout
+from keras.layers import LSTM
+from keras.layers.convolutional import Conv1D
+from keras.layers.convolutional import MaxPooling1D
+from keras.layers.embeddings import Embedding
+from keras.layers import Embedding
+from keras.layers import Embedding
+from keras.layers import LSTM,GRU,Dropout
+from keras.layers import LSTM
+from keras.layers import Dropout
+from keras.layers import LSTM,GRU,Dropout,Activation
+from keras.layers import LSTM
+from keras.layers import Dropout
+from keras.layers import LSTM,GRU,Bidirectional
+from keras.layers.recurrent import LSTM
+from keras.models import Sequential
+from keras.layers import Dense,Dropout,Activation
+
+------ temperature:0.4
+from keras.models import Sequential
+from keras.layers import Dense,Dropout,Activation
+from keras.layers.recurrent import LSTM
+from keras.models import Sequential
+from keras.layers import Dense,Dropout,Activation
+from keras.layers import LSTM
+from keras.layers.convolutional import MaxPooling1D
+from keras.layers.embeddings import Embedding
+from keras.layers import LSTM
+from keras.layers import Dropout
+from keras.layers import Dense,Dropout,Activation
+from keras.layers import LSTM
+from keras.layers import LSTM
+from keras.layers import Dropout
+from keras.layers import LSTM,Dropout
+from keras.layers import LSTM,Dropout
+from keras.layers import LSTM
+from keras.layers.convolutional import MaxPooling1D
+from keras.layers.embeddings import Embedding
+from keras.layers import LSTM
+from keras.layers import Dropout
+from keras.layers import LSTM
+from keras.layers import Dropout
+from keras.layers import LSTM
+from keras.layers import Dropout
+from keras.layers import LSTM,TimeDistributed
+from keras.layers.convolutional import Conv1D
+from keras.layers.convolutional import MaxPooling1D
+from keras.layers.embeddings import Embedding
+from keras.layers import LSTM
+
+------ temperature:0.8
+from keras.layers import Dense,Dropout,Activation
+from keras.layers import LSTM,Bidirectional
+from keras.layers import LSTM,Dropout,Activation
+from keras.layers import LSTM
+from keras.layers import Dropout
+from keras.layers import Dense,Dropout,Activation
+from keras.layers import LSTM,Dropout
+from keras.layers.recurrent import LSTM
+from keras.models import Sequential
+from keras.layers import Dense,Dropout,Activation
+from keras.layers import LSTM
+from keras.layers import Dropout
+from keras.layers import LSTM,Flatten,Dropout,Activation
+from keras.layers import LSTM
+from keras.layers import Dropout
+from keras.layers import LSTM,GRU,Dropout,Activation
+from keras.layers import LSTM,Dropout
+from keras.layers import LSTM
+from keras.layers.convolutional import MaxPooling1D
+from keras.layers.embeddings import Embedding
+from keras.layers import LSTM,Dropout
+from keras.layers import LSTM
+from keras.layers.convolutional import MaxPooling1D
+from keras.layers.embeddings import Embedding
+from keras.preprocessing import sequence
+from keras.utils import plot_model
+import matplotlib.pyplot as plt
+from keras.regularizers import l2
+def build_model(top_words,embedding_vecor_length,max_review_length,show_summaries =):
+input_layer = Embedding(top_words,embedding_vecor_length,input_length =)
+
+---------------------------------------------------------epoch=18--------------------------------------------------------------
+==============================正在从断点开始续训模型==============================
+------ temperature:0.1
+units = 3
+def,Dense,activation =):
+return np.ones(())
+self.assertEqual(len(),1)
+def,Input(shape =():
+self.assertEqual(len(),1)
+def model.recurrent()activation =,return_sequences =)
+return model
+def self.model.predict()
+def __init__():
+self.input_shape =()
+self.model = Sequential()
+self.model.add(LSTM(self.rnn_size,return_sequences =,activation =,input_shape =()))
+self.model.add(Dense(self.rnn_size,return_sequences =))
+model.add(TimeDistributed(MaxPooling2D((),strides =())))
+model.add(TimeDistributed(Conv2D(64,(),adding =,activation =)))
+model.add(TimeDistributed(MaxPooling2D((),strides =())))
+model.add(TimeDistributed(Conv2D(64,(),adding =,activation =)))
+model.add(TimeDistributed(Conv2D(32,(),adding =,activation =)))
+model.add(TimeDistributed(MaxPooling2D((),strides =())))
+model.add(TimeDistributed(Conv2D(64,(),adding =,activation =)))
+model.add(TimeDistributed(MaxPooling2D((),strides =())))
+model.add(TimeDistributed(Conv2D(64,(),adding =,activation =)))
+model.add(TimeDistributed(Conv2D(64,(),adding =,activation =)))
+model.add(TimeDistributed(Conv2D(64,(),adding =,activation =)))
+model.add(TimeDistributed(MaxPooling2D((),strides =())))
+model.add(TimeDistributed(Conv2D(64,(),adding =,activation =)))
+model.add(TimeDistributed(MaxPooling2D((),strides =())))
+model.add(TimeDistributed(Conv2D(32,(),adding =,activation =)))
+model.add(TimeDistributed(Conv2D(64,(),adding =,activation =)))
+
+------ temperature:0.4
+units = 3
+def,Input =():
+Input = Sequential()
+model_language.add(LSTM(number_of_hidden_units_LSTM,return_sequences =,input_shape =()))
+model_language.add(LSTM(number_of_hidden_units_LSTM,return_sequences =))
+model_language.add(LSTM(number_of_hidden_units_LSTM,return_sequences =))
+model_language.add(LSTM(number_of_hidden_units_LSTM,return_sequences =))
+model_language.add(LSTM(number_of_hidden_units_LSTM,return_sequences =))
+model_language.add(LSTM(number_of_hidden_units_LSTM,return_sequences =))
+model = Sequential()
+model.add(Embedding(input_dim =,output_dim =,input_length =,name =))
+model.add(LSTM(LSTM())
+model.add(Dense(1,activation =))
+model.compile(loss =,optimizer =,metrics =[])
+if self.model = model:
+self.model = Sequential()
+if self.model.add(Bidirectional(LSTM(units =,return_sequences =,dropout =,recurrent_dropout =)))
+self.model.add(Dropout())
+self.model.add(Dense(self.rnn_size,1,activation =))
+self.model.add(Dropout())
+self.model.add(Dense(self.rnn_size,1,activation =))
+model.add(Dropout())
+model.add(Dense(self.nb_classes,activation =))
+return model
+def,(self,input_shape =():
+self.model = Sequential()
+self.model.add(Embedding(output_dim =[1],input_length =,dropout =))
+self.model.add(Dropout())
+self.model.add(Dense(1,activation =))
+self.model.compile(optimizer =,loss =,metrics =[])
+
+------ temperature:0.8
+units = 3
+def,Dense,activation =):
+model = Sequential()
+model.add(LSTM(32,return_sequences =,input_shape =()))
+model.add(LSTM(units =,return_sequences =,activation =,kernel_initializer =))
+model.add(LSTM(units =,return_sequences =,activation =,name =))
+model.add(Dropout())
+model.add(Dense(loss =,optimizer =,metrics =[]))
+return model
+def,():
+def __init__():
+model = Sequential()
+model.add(LSTM(units =,return_sequences =,input_shape =()))
+model.add(LSTM(units =,return_sequences =,activation =,kernel_initializer =))
+model.add(LSTM(self.rnn_size,return_sequences =))
+model.add(Bidirectional(LSTM(units =,return_sequences =,stateful =,return_sequences =))
+model.add(TimeDistributed(Dense(units =[-1])))
+else:
+model.add(Activation())
+model.add(MaxPooling2D(pool_size =(),strides =()))
+model.add(TimeDistributed(Conv2D(64,(),adding =,activation =)))
+model.add(TimeDistributed(Conv2D(64,(),adding =,activation =)))
+model.add(TimeDistributed(Conv2D(32,(),padding =,activation =)))
+model.add(TimeDistributed(Conv2D(64,(),adding =,activation =)))
+model.add(TimeDistributed(Conv2D(32,(),adding =,activation =)))
+model.add(TimeDistributed(Conv2D(32,(),adding =,activation =)))
+model.add(TimeDistributed(Conv2D(64,(),adding =,activation =)))
+model.add(TimeDistributed(Conv2D(64,(),adding =,activation =)))
+model.add(TimeDistributed(Conv2D(64,(),adding =,activation =)))
+model.add(TimeDistributed(MaxPooling2D((),strides =())))
+
+---------------------------------------------------------epoch=19--------------------------------------------------------------
+==============================正在从断点开始续训模型==============================
+------ temperature:0.1
+if())
+if name = =:
+return model
+def):
+model = Sequential()
+model.add(Embedding(top_words,embedding_vecor_length,input_length =))
+model.add(Dropout())
+model.add(LSTM())
+model.add(Dense())
+model.add(Activation())
+return model
+def,Dropout,add(LSTM():):
+model.add(Dense(1,activation =))
+model.compile(loss =,optimizer =,metrics =[])
+return model
+def,():
+return model
+def,Conv1D(filters =,kernel_size =,padding =,activation =):
+model = Sequential()
+model.add(Embedding(input_dim =,output_dim =,input_length =,name =))
+model.add(LSTM(64,return_sequences =,input_shape =()))
+model.add(Dropout())
+model.add(LSTM(input_shape =()))
+model.add(Dense(units =,activation =))
+model.add(Dropout())
+model.add(Dense())
+model.add(Activation())
+return model
+def,Conv1D(filters =,kernel_size =,padding =,activation =):
+model = Sequential()
+
+------ temperature:0.4
+if()]
+else:
+if len()=()
+model = Sequential()
+model.add(Embedding(input_dim =,output_dim =,input_length =,weights =[x_test]))
+model.compile(loss =,optimizer =,metrics =[])
+return model
+def,():
+def __init__():
+self.model = Sequential()
+self.model.add(LSTM(input_dim =,output_dim =,return_sequences =,nput_shape =(),name =))
+self.model.add(Dropout())
+self.model.add(Dense(units =,activation =))
+self.model.compile(loss =,optimizer =,metrics =[])
+self.model.summary()
+def):
+self.model = Sequential()
+self.model.add(Dense(units =,activation =))
+self.model.add(Dropout())
+self.model.add(Dense(units =,activation =))
+self.model.compile(loss =,optimizer =,metrics =[])
+self.model.summary()
+def,name =):
+self.model = Sequential()
+self.model.add(LSTM(self.rnn_size,return_sequences =))
+model.add(TimeDistributed(Dense(units =[-1])))
+else:
+model.add(keras_impl.layers.Bidirectional(keras_impl.layers.CuDNNLSTM(args.5,return_sequences =,kernel_initializer =)))
+else:
+model.add(keras_impl.layers.SimpleRNN(args[],return_sequences =,kernel_initializer =,dropout =[]))
+
+------ temperature:0.8
+if())
+if __name__ = =:
+return model
+def =:
+self.input_shape =()
+self.model = self.model
+self.input_shape =()
+self.model = self.model.predict()
+def __init__():
+self.input_shape =()
+self.model = self.tokenizer.texts_to_sequences()
+self.model = self.model.predict()
+def.shape():
+self.model = self.model.predict()
+def __init__():
+self.input_shape =()
+self.model = self.model
+self.input_shape =()
+self.model = self.lstm()
+def __init__():
+self.model = self.lstm()
+elif model = =:
+self.input_shape =()
+self.model = self.model.predict()
+def __init__():
+self.input_shape =()
+self.model = self.model
+self.input_shape =()
+self.model = self.model.predict()
+self.model = self.assertAllClose(keras.backend.backend(),initial_state =[0])
+
+---------------------------------------------------------epoch=20--------------------------------------------------------------
+==============================正在从断点开始续训模型==============================
+------ temperature:0.1
+return model
+def,Conv1D(Dropout,3,3,nb_classes,activation =,input_shape =()):
+return self.model.save()
+def __init__():
+self.model = Sequential()
+self.model.add(LSTM(units =,return_sequences =,input_shape =()))
+self.model.add(Dropout())
+self.model.add(LSTM(units =,return_sequences =,activation =,name =))
+model.add(Dropout())
+model.add(LSTM(units =,return_sequences =,activation =,kernel_regularizer =()))
+model.add(Dropout())
+model.add(LSTM(units =,return_sequences =,activation =,kernel_regularizer =()))
+model.add(Dropout())
+model.add(LSTM(units =,return_sequences =,activation =,kernel_regularizer =()))
+model.add(Dropout())
+model.add(LSTM(units =,return_sequences =,activation =,kernel_regularizer =()))
+model.add(LSTM(units =,return_sequences =,activation =))
+model.add(Dropout())
+model.add(Dense(units =[-1]))
+model.compile(loss =,optimizer =)
+return model
+def):
+self.model = Sequential()
+self.model.add(LSTM(input_dim =,output_dim =,return_sequences =))
+self.model.add(Dropout())
+self.model.add(LSTM(units =,return_sequences =,activation =,kernel_regularizer =()))
+model.add(Dropout())
+model.add(LSTM(units =,return_sequences =,activation =,kernel_regularizer =()))
+model.add(Dropout())
+model.add(LSTM(units =,return_sequences =,activation =,kernel_regularizer =()))
+model.add(Dropout())
+
+------ temperature:0.4
+return model
+def,Conv1D(top_words,embedding_vecor_length,3,padding =):
+model = Sequential()
+model.add(Embedding())
+model.add(Activation())
+model.add(Dropout())
+model.add(Dense(units =))
+model.add(Activation())
+model.add(Dropout())
+model.add(Dense(units =))
+model.add(Activation())
+model.compile(loss =,optimizer =,metrics =[])
+return model
+def,Dropout():
+model = Sequential()
+model.add(Embedding(top_words,embedding_vecor_length,input_length =))
+model.add(LSTM())
+model.add(Dropout())
+model.add(Dense(units =))
+model.add(Activation())
+model.compile(loss =,optimizer =,metrics =[])
+return model
+def,Conv1D(10,3,activation =):
+model = Sequential()
+model.add(Embedding(top_words,embedding_vecor_length,input_length =))
+model.add(LSTM())
+model.add(Dense())
+model.add(Activation())
+model.compile(loss =,optimizer =,metrics =[])
+return model
+def,Dropout():
+
+------ temperature:0.8
+return model
+def,Conv1D(top_words,embedding_vecor_length,3,3,padding =):
+model = Sequential()
+model.add(Embedding())
+model.add(Activation())
+model.add(Dropout())
+model.add(Dense(units =))
+model.add(Activation())
+model.compile(loss =,optimizer =,metrics =[])
+return model
+def):
+model = Sequential()
+model.add(Embedding(top_words,embedding_vecor_length,input_length =))
+model.add(Dropout())
+model.add(LSTM())
+model.add(Dense())
+model.add(Activation())
+model.compile(loss =,optimizer =,metrics =[])
+return model
+def,Dropout():
+model = Sequential()
+model.add(Embedding(top_words,embedding_vecor_length,input_length =))
+model.add(LSTM())
+model.add(Dense())
+model.add(Activation())
+model.compile(loss =,optimizer =,metrics =[])
+if show_summaries:
+return model
+os.environ[]=
+parser = argparse.ArgumentParser(description =)
+parser.add_argument(,action =,default =,help =)
+
+---------------------------------------------------------epoch=21--------------------------------------------------------------
+==============================正在从断点开始续训模型==============================
+------ temperature:0.1
+model.compile(loss =,optimizer =)
+return model
+def model():
+model = Sequential()
+model.add(LSTM(input_shape =(),return_sequences =))
+model.add(LSTM())
+model.add(Dense())
+model.add(Activation())
+model.compile(loss =,optimizer =,metrics =[])
+model.fit(X_train,y_train,batch_size =,epochs =)
+from keras.models import Sequential
+from keras.layers import Dense,Dropout,Activation,Flatten,Flatten,Dropout,Flatten,MaxPooling1D,Flatten,Embedding,LSTM,Bidirectional
+from keras.models import Sequential
+from keras.layers import Embedding,LSTM,Dense
+from keras.layers import Dropout
+from keras.layers import LSTM
+from keras.layers import Dropout
+from keras.layers import LSTM
+from keras.layers.convolutional import MaxPooling1D
+from keras.callbacks import TensorBoard
+from keras.callbacks import ModelCheckpoint
+from keras.callbacks import TensorBoard
+from keras.callbacks import ModelCheckpoint
+from keras.callbacks import TensorBoard
+from keras.callbacks import EarlyStopping
+from keras.layers import LSTM
+from keras.callbacks import ModelCheckpoint
+from keras.callbacks import ModelCheckpoint
+from keras.callbacks import TensorBoard
+from keras.callbacks import ModelCheckpoint
